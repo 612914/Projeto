@@ -1,0 +1,128 @@
+ /* ABRE ARTIGOS EM DESTAQUE PARA LAYOUT */
+body {
+     background-color: #F2FFFC; 
+}
+
+.titulo-principal {
+    font-size: 80px;
+    font-family: Georgia;
+    text-align: center;
+    color: steelblue; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    border: solid 1px #CCC;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0.3);
+    height: 400px;
+    width: 300px;
+    margin: 20px 20px;
+    padding: 0.3125em;
+     border-radius: 5px;
+}
+
+.titulo {
+    font-family: "Crimson Text", "Times New Roman", serif; 
+    font-weight: 600;
+    color: #ff0000;
+    font-size: 30px;
+}
+
+
+
+
+ /* FECHA ARTIGOS EM DESTAQUE PARA LAYOUT */
+hr {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* FLEXBOX CURSOS */
+
+.sub-titulo {
+    font-size: 50px;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    text-align: center;
+    color: steelblue;
+}
+
+.geral-conteiner {
+   padding: 30px;   
+}
+
+.flex-curso  {
+   text-align: center;
+   padding: 30px;   
+}
+
+
+ .titulo2 {
+    font-style: italic;
+    font-weight: 900;
+    color: #ff0000;
+    text-transform: uppercase;           
+}
+
+.container {
+    border-radius: 5px;
+    margin: 30px auto;
+    background-color: #ffeecc; 
+    width: 90%;
+    font-family: "Crimson Text", "Times New Roman", serif;
+}
+
+.row{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.flex-curso img {
+     border-radius: 5px;
+}
+
+
+ .seta {  
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   font-family: 'Georgia', sans-serif; 
+   font-size: 20px;     
+}
+
+@media only screen and (max-width: 1085px) {    
+    
+    .flex-container {
+        flex-direction: column;
+        align-items: center; 
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+/* reset */
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+body {
+	font-family: Arial, helvetica, sans-serif;
+	line-height: 1.4;
+}
+
+header {
+	background: #f0f0f0;
+	width: 100%;
+}
+
+.logo img {
+	display: block;
+}
+
+.segunda-coluna{   
+    float: right;
+    padding: 5px;
+}
+
+
+/* categorias */
+.menu-principal a {
+   color: #ff7f00;   
+}
+
+.menu-principal {
+	font-weight: bold;
+	list-style-type: none;
+	}
+	.menu-principal a {
+		display: block;
+		padding-right: 1em;
+		margin-right: 1em;
+
+		line-height: 1;
+		text-decoration: none;
+		text-transform: lowercase;
+	}
+		.menu-principal a:hover {
+			opacity: 0.8;
+		}
+
+.autenticacao a {
+    position: relative; /* Essa propriedade que faz a ( autenticacao a:hover) funcionar para todos botĆµes. */   
+} 
+
+.autenticacao  .botao1:hover::after,
+.autenticacao  .botao1:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background: steelblue;
+    color: white;
+    top: 60%;
+    width: 250%;   
+    right: 0;
+    text-indent: 0;
+    font-size: .75em;
+}
+
+.autenticacao  .botao2:hover::after,
+.autenticacao  .botao2:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background: steelblue;
+    color: white;
+    top: 60%;
+    width: 300%;
+    text-align: center;
+    right: 0;
+    text-indent: 0;
+    font-size: .75em;
+}
+
+.autenticacao  .botao3:hover::after,
+.autenticacao  .botao3:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background: steelblue;
+    color: white;
+    top: 60%;
+    width: 300%;
+    text-align: center;
+    right: 0;
+    text-indent: 0;
+    font-size: .75em;
+}
+
+
+
+

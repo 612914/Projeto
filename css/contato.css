@@ -1,0 +1,46 @@
+body {
+     background-color: #F2FFFC; 
+}
+
+table, th, td {
+  border: 2px solid red;
+  border-radius: 25px;
+ 
+}
+
+th, td {
+  padding: 30px; 
+  background: #ffcccc;
+}
+
+table img {
+   vertical-align: middle;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 95px;
+    margin-top: 40px; 
+    background:  #ff3385;     
+}
+
+.contato {
+    color: blue;
+}
+
+table ins:hover {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
